@@ -3,7 +3,7 @@
 
 We provide ready-to-use bash scripts under the [scripts/](../scripts) directory for evaluating **SuPr**, **SuPr+PromptSRC**, and **SuPrEns** models using our pre-trained checkpoints.
 
-Please ensure that you update the `DATA` variable in each script to match your dataset path, and run all commands from the project root directory `SuPr/`.
+Please ensure that you update the `DATA` variable in each script to match your dataset path, and run all commands from the project root directory `Subspace_Prompting/`.
 
 We have already provided:
 - Precomputed evaluation results under [output/](../output)
@@ -68,7 +68,7 @@ weights/
 
 ### ⚡ Reproducing Experiments
 
-After setting up, run the following command from the `SuPr/` root directory:
+After setting up, run the following command from the `Subspace_Prompting/` root directory:
 
 ```bash
 bash reproduce.sh
