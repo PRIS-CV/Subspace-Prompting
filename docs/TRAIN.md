@@ -35,7 +35,7 @@ This section provides detailed instructions on running **SuPr** experiments acro
 ### Step-by-Step Instructions
 
 1. **Configuration**  
-   Modify the configuration file located at:  
+   Use the configuration file located at:  
    ```
    configs/trainers/SuPr/vit_b16_ep10_batch4_4+4ctx.yaml
    ```
@@ -101,7 +101,7 @@ To run SuPr combined with PromptSRC:
 ### Step-by-Step Instructions
 
 1. **Configuration**  
-   Edit the configuration file at:  
+   Use the configuration file at:  
    ```
    configs/trainers/SuPr/vit_b16_ep12_batch8_4+4ctx_cross_datasets.yaml
    ```
@@ -147,7 +147,7 @@ To run SuPr combined with PromptSRC:
 ### Step-by-Step Instructions
 
 1. **Configuration**  
-   Edit the configuration file at:  
+   Use the configuration file at:  
    ```
    configs/trainers/SuPr/vit_b16_ep25_batch8_4+4ctx_few_shot.yaml
    ```
