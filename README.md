@@ -61,7 +61,7 @@ In contrast, our **Subspace Prompting (SuPr)** method circumvents this tradeoff.
 | KgCoOp                     | [CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Yao_Visual-Language_Prompt_Tuning_With_Knowledge-Guided_Context_Optimization_CVPR_2023_paper.html) | [link](configs/trainers/KgCoOp/) | [link](scripts/kgcoop) |
 | PromptSRC                  | [ICCV 2023](https://arxiv.org/abs/2307.06948)   | [link](configs/trainers/PromptSRC/) | [link](scripts/promptsrc) |
 | TCP                        | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Yao_TCPTextual-based_Class-aware_Prompt_tuning_for_Visual-Language_Model_CVPR_2024_paper.html) | [link](configs/trainers/TCP/) | [link](scripts/TCP) |
-| DePT                       | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DePT_Decoupled_Prompt_Tuning_CVPR_2024_paper.html) | [link](configs/trainers/PromptSRC/) | [link](scripts/promptsrc) |
+| DePT                       | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DePT_Decoupled_Prompt_Tuning_CVPR_2024_paper.html) | [link](configs/trainers/PromptSRC/) | [link](scripts/dept) |
 | SuPr (ours)                | [arXiv](https://arxiv.org/abs/2307.06948)        | [link](configs/trainers/SuPr/) | [link](scripts/supr) |
 
 ---
