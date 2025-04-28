@@ -57,10 +57,10 @@ In contrast, our **Subspace Prompting (SuPr)** method circumvents this tradeoff.
 | Independent V-L Prompting  | -                                               | [link](configs/trainers/IVLP/) | [link](scripts/independent-vlp) |
 | CoOp                       | [IJCV 2022](https://arxiv.org/abs/2109.01134)   | [link](configs/trainers/CoOp)   | [link](scripts/coop) |
 | Co-CoOp                    | [CVPR 2022](https://arxiv.org/abs/2203.05557)   | [link](configs/trainers/CoCoOp) | [link](scripts/cocoop) |
-| MaPLe                      | [CVPR 2023](https://arxiv.org/abs/2210.03117)   | [link](configs/trainers/CoOp)   | [link](scripts/maple) |
+| MaPLe                      | [CVPR 2023](https://arxiv.org/abs/2210.03117)   | [link](configs/trainers/MaPLe)   | [link](scripts/maple) |
 | KgCoOp                     | [CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Yao_Visual-Language_Prompt_Tuning_With_Knowledge-Guided_Context_Optimization_CVPR_2023_paper.html) | [link](configs/trainers/KgCoOp/) | [link](scripts/kgcoop) |
 | PromptSRC                  | [ICCV 2023](https://arxiv.org/abs/2307.06948)   | [link](configs/trainers/PromptSRC/) | [link](scripts/promptsrc) |
-| TCP                        | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Yao_TCPTextual-based_Class-aware_Prompt_tuning_for_Visual-Language_Model_CVPR_2024_paper.html) | [link](configs/trainers/TCP/) | [link](scripts/TCP) |
+| TCP                        | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Yao_TCPTextual-based_Class-aware_Prompt_tuning_for_Visual-Language_Model_CVPR_2024_paper.html) | [link](configs/trainers/TCP/) | [link](scripts/tcp) |
 | DePT                       | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DePT_Decoupled_Prompt_Tuning_CVPR_2024_paper.html) | [link](configs/trainers/PromptSRC/) | [link](scripts/dept) |
 | SuPr (ours)                | [arXiv](https://arxiv.org/abs/2307.06948)        | [link](configs/trainers/SuPr/) | [link](scripts/supr) |
 
@@ -102,9 +102,9 @@ Datasets required for training and evaluation can be prepared by following [DATA
 
 | Configurations | Model Checkpoints |
 |----------------|:-----------------:|
-| [SuPr](configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
-| [SuPr + PromptSRC](configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
-| [SuPr Ens](configs/trainers/PromptSRC/vit_b16_c2_ep20_batch4_4+4ctx.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
+| [SuPr](configs/trainers/SuPr/vit_b16_ep10_batch4_4+4ctx.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
+| [SuPr + PromptSRC](configs/trainers/SuPr/vit_b16_ep20_batch4_4+4ctx_promptsrc.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
+| [SuPr Ens](configs/trainers/SuPr/vit_b16_ep10_batch4_4+4ctx.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
 
 ---
 
