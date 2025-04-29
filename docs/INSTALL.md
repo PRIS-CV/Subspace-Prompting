@@ -21,6 +21,10 @@ pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --e
 ```bash
 # Clone PromptSRC code base
 git clone https://github.com/PRIS-CV/Subspace-Prompting
+# or
+# Use huggingface code base (including weights)
+pip install -U huggingface_hub
+huggingface-cli download --resume-download tongyujun/Subspace_Prompting 
 
 cd Subspace_Prompting/
 # Install requirements
@@ -41,4 +45,10 @@ pip install -r requirements.txt
 
 # Install this library (no need to re-build if the source code is modified)
 python setup.py develop
+```
+
+* Install additional package.
+```bash
+# For evaluation
+pip install openpyxl
 ```
