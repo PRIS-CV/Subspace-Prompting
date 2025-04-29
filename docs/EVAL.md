@@ -30,7 +30,7 @@ To reproduce the results (taking ImageNet as an example), follow these steps:
    - Follow the dataset preparation guidelines provided in [DATASETS.md](../docs/DATASETS.md).
 
 3. **Download pre-trained weights**  
-   - Download the zipped folder containing all pre-trained weights from this [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/Em_3tkSj6T9AmhVjmzKTL3gBYNehhvfJl8ke2pU3U0nabA?e=9ecjQA).
+   - Download the zipped folder containing all pre-trained weights from this [link](https://huggingface.co/tongyujun/Subspace_Prompting/tree/main/weights).
    - After extraction, the folder structure should look like:
 
 ```text
