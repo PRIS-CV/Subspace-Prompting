@@ -102,9 +102,9 @@ Datasets required for training and evaluation can be prepared by following [DATA
 
 | Configurations | Model Checkpoints |
 |----------------|:-----------------:|
-| [SuPr](configs/trainers/SuPr/vit_b16_ep10_batch4_4+4ctx.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
-| [SuPr + PromptSRC](configs/trainers/SuPr/vit_b16_ep20_batch4_4+4ctx_promptsrc.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
-| [SuPr Ens](configs/trainers/SuPr/vit_b16_ep10_batch4_4+4ctx.yaml) | [link](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/syed_wasim_mbzuai_ac_ae/EqFXPs2Zl9pKp39w3SqlR7QBDACTv-AgCXH6_cGflrUFwg?e=l33EBA) |
+| [SuPr](configs/trainers/SuPr/vit_b16_ep10_batch4_4+4ctx.yaml) | [link](https://huggingface.co/tongyujun/Subspace_Prompting/tree/main/weights/SuPr) |
+| [SuPr + PromptSRC](configs/trainers/SuPr/vit_b16_ep20_batch4_4+4ctx_promptsrc.yaml) | [link]([https://huggingface.co/tongyujun/Subspace_Prompting/tree/main/weights/SuPrEns](https://huggingface.co/tongyujun/Subspace_Prompting/tree/main/weights/SubspacePromptSRC)) |
+| [SuPr Ens](configs/trainers/SuPr/vit_b16_ep10_batch4_4+4ctx.yaml) | [link](https://huggingface.co/tongyujun/Subspace_Prompting/tree/main/weights/SuPrEns) |
 
 ---
 
