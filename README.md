@@ -33,7 +33,8 @@ Official implementation of the paper: **"Vision-Language Subspace Prompting"**.
 
 ## ✨ Introduction
 
-![Main Insight](docs/insight.jpg)
+<img src="docs/insight.jpg" width="500">
+
 
 In adapting vision-language models like CLIP to downstream tasks, existing methods often struggle to balance task-specific objectives with the need to preserve CLIP’s generalizable embedding space. Traditional regularization techniques constrain optimization flexibility, limiting the adaptability of soft prompts to new tasks (left figure).  
 In contrast, our **Subspace Prompting (SuPr)** method circumvents this tradeoff. It enables the integration of high-dimensional, semantically rich subspaces that simultaneously capture task-specific knowledge while retaining CLIP's generalizable features (right figure).
@@ -80,8 +81,8 @@ In contrast, our **Subspace Prompting (SuPr)** method circumvents this tradeoff.
 
 SuPr's subspace modeling captures diverse intra-class variations, including fine-grained features like color, texture, and depiction style. This enables richer semantic representations compared to traditional soft prompts, which often focus only on dominant concepts. Additionally, interpolations within the subspace reveal smooth semantic transitions along various attributes.
 
-![Subspace Visualization](docs/vis.jpg)
 
+<img src="docs/vis.jpg" width="800">
 
 <img src="docs/walking.jpg" width="300">
 
