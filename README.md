@@ -82,10 +82,8 @@ SuPr's subspace modeling captures diverse intra-class variations, including fine
 
 ![Subspace Visualization](docs/vis.jpg)
 
-<div style="width: 50%; margin: auto;">
-  ![Subspace Walking](docs/walking.jpg){width="330"}
-</div>
 
+<img src="docs/walking.jpg" width="300">
 
 ---
 
